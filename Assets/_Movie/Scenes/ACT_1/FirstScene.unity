@@ -665,8 +665,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463004808}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.14948554, y: -0.25570083, z: -0.040054526, w: 0.95428866}
-  m_LocalPosition: {x: 27.06548, y: 10.852672, z: -67.72527}
+  m_LocalRotation: {x: 0.36473888, y: 0.5162335, z: -0.30097374, w: 0.71406126}
+  m_LocalPosition: {x: 43.14185, y: 12.295421, z: -77.17034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2067,6 +2067,7 @@ GameObject:
   - component: {fileID: 2019802264}
   - component: {fileID: 2019802263}
   - component: {fileID: 2019802265}
+  - component: {fileID: 2019802266}
   m_Layer: 0
   m_Name: Virtual Camera (2)
   m_TagString: Untagged
@@ -2111,7 +2112,7 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 683657887}
           m_TargetAssemblyTypeName: 
           m_MethodName: 
           m_Mode: 1
@@ -2140,7 +2141,7 @@ Transform:
   m_Children:
   - {fileID: 726194630}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -9.945, y: -9.601, z: 0.317}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
 --- !u!95 &2019802265
 Animator:
   serializedVersion: 7
@@ -2163,6 +2164,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &2019802266
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019802262}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: cd8ad7ce338bb3f44bbe22494dd68842, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 2248519419286360255, guid: cd8ad7ce338bb3f44bbe22494dd68842, type: 2}
+    value: {fileID: 2019802265}
+  - key: {fileID: -2398728583761736831, guid: cd8ad7ce338bb3f44bbe22494dd68842, type: 2}
+    value: {fileID: 886105256}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &2133709336
 PrefabInstance:
   m_ObjectHideFlags: 0
