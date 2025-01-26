@@ -122,6 +122,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6545720814447200362, guid: b620b38846e2d004c94e5b9abe83abb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -97.892426
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545720814447200362, guid: b620b38846e2d004c94e5b9abe83abb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545720814447200362, guid: b620b38846e2d004c94e5b9abe83abb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 221.09015
+      objectReference: {fileID: 0}
     - target: {fileID: 7935475474320288305, guid: b620b38846e2d004c94e5b9abe83abb6, type: 3}
       propertyPath: m_Name
       value: Shipwreck
