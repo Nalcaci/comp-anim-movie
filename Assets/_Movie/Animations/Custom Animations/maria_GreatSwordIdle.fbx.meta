@@ -3,7 +3,22 @@ guid: c6ade66c62a8be74fad5e9ea1cb3b3f9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: maria_diffuse
+    second: {fileID: 2800000, guid: 778b40cb05f9abe40bf60c20e118a28d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: maria_normal
+    second: {fileID: 2800000, guid: 83a9f26b025c05042b2c67eda7d101dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: maria_specular
+    second: {fileID: 2800000, guid: a9b8aaf00e6852c4ebb0cea207f3b511, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
