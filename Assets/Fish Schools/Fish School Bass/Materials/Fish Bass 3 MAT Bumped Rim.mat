@@ -128,7 +128,11 @@ Material:
     - _SpecColor: {r: 0.880597, g: 0.8107448, b: 0.75573623, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+<<<<<<< HEAD
 --- !u!114 &3851967856586987553
+=======
+--- !u!114 &1225602653307085597
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
